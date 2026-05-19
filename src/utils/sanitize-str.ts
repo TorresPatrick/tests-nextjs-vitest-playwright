@@ -1,4 +1,4 @@
-import { getFullEnv } from "@/env/config";
+import { getFullEnv } from "@/env/configs";
 
 export function sanitizeStr(s: string): string {
   return !s || typeof s !== "string" ? "" : s.trim().normalize();
