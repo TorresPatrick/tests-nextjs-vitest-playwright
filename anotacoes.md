@@ -922,7 +922,7 @@ Durma bem (pelo menos até o deploy). \
 E, por favor, **não altere código em produção usando `nano`** (eu nem sei usar o
 `vi` também, então faça local mesmo).
 
-Nos vemos nos próximos testes. Beijos 😘.
+Nos vemos nos próximos testes.
 
 Por [Luiz Otávio Miranda](https://github.com/luizomf)
 

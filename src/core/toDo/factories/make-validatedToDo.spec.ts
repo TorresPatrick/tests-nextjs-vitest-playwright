@@ -30,9 +30,9 @@ describe("MakeValidatedToDo (unit)", () => {
     const { description } = makeMocks();
     const result = makeValidatedToDo(description) as ValidToDo;
     expect(result.success).toBe(true);
-    expect(result.data.id).toBe("any-id");
-    expect(result.data.description).toBe("abcd");
-    expect(result.data.createdAt).toBe("any-date");
+    expect(result.todo.id).toBe("any-id");
+    expect(result.todo.description).toBe("abcd");
+    expect(result.todo.createdAt).toBe("any-date");
   });
 
   test("deve chamar makeNewToDo se validatedDescription.error se a validação falhou", () => {
